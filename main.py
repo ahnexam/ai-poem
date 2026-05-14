@@ -2,11 +2,11 @@ from langchain.chat_models import init_chat_model
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 # from dotenv import load_dotenv
-# import os
+import os
 import streamlit as st
 
 # load_dotenv()
-# api_key = os.getenv('OPENAI_API_KEY')
+api_key = os.getenv('OPENAI_API_KEY')
 
 st.title("_AI 시인_ :sunglasses:")
 
